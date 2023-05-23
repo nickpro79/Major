@@ -1,0 +1,62 @@
+* {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:15px;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    
+  }
+  .inputs{  
+    padding:1rem;  
+    border-radius: 25px;  
+    border: none;  
+    font-weight: bold;
+    background-color: #fff;  
+    font-family: inherit;  
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);  
+    min-width: 300px;  
+    font-size: 1rem;  
+    outline: none;  
+} 
+  body{  
+    margin: 0;  
+    font-family: "Poppins", sans-serif;  
+    font-weight: bold;
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    min-height: 100vh;  
+    flex-direction: column;  
+  }  
+  #add {
+    background-color: rgb(105, 105, 196);
+    color: black;
+    border: 2px solid ;
+    padding: 5px 5px;
+   ;
+    font-size: 16px;
+  }
+  .wrapper h2{
+    display:flex;
+    flex-direction: column;
+    padding: 5px 0;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+  }
+  .wrapper p{
+    margin:20px 50px;
+    margin-right: 20px;
+    text-align: left;
+    color: #04214c;
+    font-size:23px;
+  }
+
+  .wrapper h2 span{
+    font-size: 26px;
+    color: #9beefb;
+  }
+    .wrapper p span{
+    color: #90006e;
+    font-size: 25px;
+  }
